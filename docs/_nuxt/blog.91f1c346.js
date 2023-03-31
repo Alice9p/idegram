@@ -1,0 +1,1 @@
+import{_ as t}from"./nuxt-link.8cfe8c7b.js";import{a as n,b as c,e,f as s,w as _,o as a,h as l}from"./entry.0ead1fb5.js";const r={},d=e("h1",null,"Blog",-1),u=e("p",null,"Texto de blog",-1);function f(i,p){const o=t;return a(),c("div",null,[d,u,e("p",null,[s(o,{to:"/"},{default:_(()=>[l("Volver")]),_:1})])])}const h=n(r,[["render",f]]);export{h as default};

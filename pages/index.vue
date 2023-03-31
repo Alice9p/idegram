@@ -1,7 +1,7 @@
 <template>
   <div>
     <Loading :show="verLoading" />
-    <button type="button" class="btn btn-success" @click="showModalNewPhoto = true">➕</button>
+    <button type="button" class="btn btn-success mb-3" @click="showModalNewPhoto = true">Sube tu foto</button>
     <!-- Listado de imagenes -->
     <Card v-for="photo in photos" :url="photo.url" :likes="photo.likes" :id="photo.id"/>
     <!-- Modal para subir una nueva imagen -->

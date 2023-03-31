@@ -18,6 +18,9 @@
 </template>
 
 <style scope>
+body {
+  background: #e7e5df;
+}
 .custom-container {
   padding: 1rem;
   margin: 0 auto;

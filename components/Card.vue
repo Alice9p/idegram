@@ -1,8 +1,8 @@
 <template>
-  <article class="mb-3">
+  <article class="mb-5">
     <!-- Imagen -->
     <div class="ratio ratio-4x3">
-      <img :src="urlPublic" alt="" class="
+      <img @click="addLike" alt="" :src="urlPublic"  class="
             img
             object-fit-cover
             border
@@ -11,8 +11,8 @@
     </div>
     <!-- Controles -->
     <div class="d-flex justify-content-end">
-      <button @click="addLike" class="btn btn-outline-primary p-3" aria-current="page">❤ {{ likes }}</button>
-      <button class="btn btn-outline-primary p-3">💭</button>
+      <button @click="addLike" class="btn btn-outline-primary p-2 text-center mt-3" aria-current="page">❤ {{ likes }}</button>
+
 
     </div>
   </article>
