@@ -3,7 +3,6 @@
     <Loading :show="verLoading" />
     <button type="button" class="btn btn-success" @click="showModalNewPhoto = true">➕</button>
     <!-- Listado de imagenes -->
-    <h1>Listado de imagenes subidas</h1>
     <Card v-for="photo in photos" :url="photo.url" :likes="photo.likes" :id="photo.id"/>
     <!-- Modal para subir una nueva imagen -->
     <div class="modal" tabindex="-1" :class="{'d-block' : showModalNewPhoto}">
