@@ -5,9 +5,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "github": "del docs && npx nuxi generate && move .output/public docs"
   },
   "devDependencies": {
     "nuxt": "^3.3.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.12.1"
   }
 }
